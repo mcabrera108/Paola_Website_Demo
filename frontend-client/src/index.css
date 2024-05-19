@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "W95FA";
+  src: local("W95FA"),
+    url("./fonts/W95FA.otf") format("opentype");
+  font-weight: normal;
+}

@@ -1,0 +1,22 @@
+:root {
+    --nav-links-text-color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--nav-links-text-color);
+}
+
+a:visited,
+a:active,
+a:link {
+    text-decoration: none;
+    color: var(--nav-links-text-color);
+}

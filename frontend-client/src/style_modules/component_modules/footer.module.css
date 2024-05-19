@@ -1,0 +1,31 @@
+:root {
+    --default-font-fam: "W95FA", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    padding: .5rem;
+    padding-bottom: .3rem;
+    border-top: 3px solid white;
+}
+
+.startBtn {
+    display: flex;
+    font-size: 1.3rem;
+    font-family: var(--default-font-fam);
+    padding: 3px 10px 3px 10px;
+    font-weight: 700;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    box-shadow: 3px 2px rgb(44, 44, 44);
+    justify-content: center;
+    align-items: center;
+}
+
+.timeContainer {}
+
+.startLogo {
+    margin-right: 5px;
+}

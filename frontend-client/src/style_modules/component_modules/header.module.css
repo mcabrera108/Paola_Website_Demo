@@ -1,0 +1,37 @@
+:root {
+    --nav-bg-color: #fea6d6;
+    --nav-font-color: white;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--nav-bg-color);
+    position: absolute;
+    min-width: 100%;
+    font-family: "W95FA", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitle {
+    display: flex;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .logoTitle {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+}
